@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.job.permisomicrofonoapp.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Grabar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="grabar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Detener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="detenerGrabacion"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignStart="@+id/button1"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:text="Reproducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="reproducir"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
